@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">即時調查～最快最準的現況調查</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_start">start</string>
+    <string name="setting_pre">setting2</string>
+    <string-array name="numbersOfQ">
+        <item>二個項目</item>
+        <item>三個項目</item>
+        <item>四個項目</item>
+        <item>五個項目</item>
+    </string-array>
+    <string-array name="surveyAvailableTime">
+        <item>一小時</item>
+        <item>四小時</item>
+        <item>二十四小時</item>
+        <item>一星期</item>
+    </string-array>
+
+    <string name="title_activity_monitor_my_survey">MySurvey</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

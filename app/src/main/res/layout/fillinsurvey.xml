@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300sp"
+        android:layout_height="450sp">
+
+        <TextView
+            android:text="建立者"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fillInSuveyCreatorName" />
+
+        <TextView
+            android:text="TextView"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fillInSuveyTopic" />
+
+        <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="1"
+            android:onClick="changeSelect"
+            android:id="@+id/fillInSuveyOption1" />
+
+        <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="2"
+            android:onClick="changeSelect"
+            android:id="@+id/fillInSuveyOption2" />
+
+        <Button
+            android:text="Button"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="3"
+            android:onClick="changeSelect"
+            android:id="@+id/fillInSuveyOption3" />
+
+        <Button
+            android:text="Button"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="4"
+            android:onClick="changeSelect"
+            android:id="@+id/fillInSuveyOption4" />
+
+        <Button
+            android:text="Button"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:tag="5"
+            android:onClick="changeSelect"
+            android:id="@+id/fillInSuveyOption5" />
+
+        <TextView
+            android:text="目前選擇："
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:id="@+id/fillInSuveyOptionSelected" />
+
+        <LinearLayout
+            android:id="@+id/fillInAnonymityLayout"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:text="匿名"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fillInSuveyOptionAnonymity"
+                android:layout_width="90sp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_width="90sp"
+                android:text="取代名稱："
+                android:textSize="18sp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="匿名者"
+                android:ems="10"
+                android:id="@+id/fillInSuveyOptionAlias"
+                android:layout_width="0sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fillInSuggestLayout"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="建議："
+                android:textSize="18sp"
+                android:layout_width="90sp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView10" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/fillInSuveyOptionSuggestion"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="取消"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="cancleSurvey"
+                android:id="@+id/button6" />
+
+            <Button
+                android:text="看結果"
+                android:visibility="gone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:onClick="checkResult"
+                android:id="@+id/monitorResult"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="確定"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="submit"
+                android:id="@+id/fillInSurveySubmit" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

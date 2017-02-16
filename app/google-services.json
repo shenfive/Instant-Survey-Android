@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1073381575096",
+    "firebase_url": "https://dannytest001-21971.firebaseio.com",
+    "project_id": "dannytest001-21971",
+    "storage_bucket": "dannytest001-21971.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073381575096:android:adfc34fbbab8cdbd",
+        "android_client_info": {
+          "package_name": "idv.shenrunwu.instsuv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073381575096-jt39gj6smfq99vuagnut79aj65igqoc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "idv.shenrunwu.instsuv",
+            "certificate_hash": "B777A867539957BC78D6F72EB7BCCC2D02A3A6F7"
+          }
+        },
+        {
+          "client_id": "1073381575096-i8kkhv50galghar9a18f18242aspv31o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArt2fj9yfQSlPU4NIK1emQMEEhkR22LP0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073381575096-d6136sortdgkjb37ptqrn01l2icdhb2o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sjw.idv.instsuv"
+              }
+            },
+            {
+              "client_id": "1073381575096-i8kkhv50galghar9a18f18242aspv31o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
