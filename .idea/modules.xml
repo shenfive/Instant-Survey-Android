@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Instant-Survey-Android.iml" filepath="$PROJECT_DIR$/Instant-Survey-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/instsuv.iml" filepath="$PROJECT_DIR$/instsuv.iml" />
     </modules>
   </component>
 </project>

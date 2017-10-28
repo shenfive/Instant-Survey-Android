@@ -15,11 +15,35 @@
       },
       "oauth_client": [
         {
+          "client_id": "1073381575096-e531hob88e23kvcl3pnc9231jdjb1gdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "idv.shenrunwu.instsuv",
+            "certificate_hash": "3a4437d299b4a7b0c48d61424a085da685181692"
+          }
+        },
+        {
+          "client_id": "1073381575096-h0t5hhk83ckeapllj1pvfv1jcre7560o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "idv.shenrunwu.instsuv",
+            "certificate_hash": "563786108b85ff6035198516c71f6e2a0f7e1e81"
+          }
+        },
+        {
+          "client_id": "1073381575096-ggn53rbdnasrdn9f240ag61ohfvf1d27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "idv.shenrunwu.instsuv",
+            "certificate_hash": "abd7c8d74804c2dda51f0a06e7e3cd47deba9932"
+          }
+        },
+        {
           "client_id": "1073381575096-jt39gj6smfq99vuagnut79aj65igqoc3.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "idv.shenrunwu.instsuv",
-            "certificate_hash": "B777A867539957BC78D6F72EB7BCCC2D02A3A6F7"
+            "certificate_hash": "b777a867539957bc78d6f72eb7bccc2d02a3a6f7"
           }
         },
         {
@@ -40,15 +64,15 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
+              "client_id": "1073381575096-i8kkhv50galghar9a18f18242aspv31o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
               "client_id": "1073381575096-d6136sortdgkjb37ptqrn01l2icdhb2o.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "sjw.idv.instsuv"
               }
-            },
-            {
-              "client_id": "1073381575096-i8kkhv50galghar9a18f18242aspv31o.apps.googleusercontent.com",
-              "client_type": 3
             }
           ]
         },
